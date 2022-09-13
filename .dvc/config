@@ -1,0 +1,4 @@
+[core]
+    remote = titanic
+['remote "titanic"']
+    url = azure://dvc-azure
