@@ -2,3 +2,4 @@
     remote = titanic
 ['remote "titanic"']
     url = azure://dvc-azure
+    account_name = gdpdeva3suks
