@@ -1,5 +1,32 @@
 ## Demo
 
+## Introduction to DVC
+
+    https://github.com/jai2shan/DataVersionControl_DVC
+
+## Basics tutorial for DVC
+
+    https://dvc.org/doc/use-cases/versioning-data-and-models/tutorial
+
+## Similar tools in the market
+
+mlflow, kubeflow, neptune, pachyderm etc.,
+
+# Demo
+## Demo
+### *Every step below is followed with a commit*
+1) We will setup git and dvc to track code, data and models specifically in Azure Blob Storage
+2) Setup cloud location for data to store the data
+3) Add Version 1 data with 500 training records(Titanic dataset)
+4) Add python code to build models
+5) Train a Logistic Regression model on Version 1 data
+6) Add Version 2 of the data with 800 training records
+7) Train a Logistic Regression model on Version 2 data
+8) Train a Random Forest model on Version 2 data
+9) Clone the repository locally into the different location         
+10) Sync the data and re run the scripts
+
+---
 01. Create a git repository in github.com       
 02. Clone the repository   
 03. Initiate DVC in the git repository      
@@ -69,5 +96,7 @@
     git status
     git commit -m "Version 2 Data"
     git push origin main
+
+> Change to a different location, create a new folder, sync the data and rerun the scripts
 
 
