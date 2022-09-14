@@ -2,6 +2,18 @@
 
 ## Introduction to DVC
 
+#### Versioning Data and Code
+![alt text](images/DVC.png "Title")
+
+#### Summary of DVC Versioning
+![alt text](images/DVC_Complete.png "Title")
+
+#### Complete Commit history
+![alt text](images/CommitHistory.png "Title")
+
+#### All components tracked
+![alt text](images/DVCCompletePicture.png "Title")
+
     https://github.com/jai2shan/DataVersionControl_DVC
 
 ## Basics tutorial for DVC
@@ -13,7 +25,6 @@
 mlflow, kubeflow, neptune, pachyderm etc.,
 
 # Demo
-## Demo
 ### *Every step below is followed with a commit*
 1) We will setup git and dvc to track code, data and models specifically in Azure Blob Storage
 2) Setup cloud location for data to store the data
