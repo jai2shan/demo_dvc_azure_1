@@ -38,13 +38,14 @@ mlflow, kubeflow, neptune, pachyderm etc.,
 10) Sync the data and re run the scripts
 
 ---
-01. Create a git repository in github.com       
-02. Clone the repository   
-03. Initiate DVC in the git repository      
+> Create a git repository in github.com       
+> Clone the repository   
+> Initiate DVC in the git repository      
 ``` 
     dvc init    
 ```       
-04.  Set up Azure blob storage   
+> Set up Azure blob storage   
+  
 > Add the special permissions for this type of request:         
    . Storage Blob Data Contributor           
    . Storage Queue Data Contributor          
@@ -111,3 +112,4 @@ mlflow, kubeflow, neptune, pachyderm etc.,
 > Change to a different location, create a new folder, sync the data and rerun the scripts
 
 
+/mnt/c/Users/jayasans4085/OneDrive - ARCADIS/Documents/Learning/
