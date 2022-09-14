@@ -62,5 +62,7 @@
     dvc push
     git push
 
-> 
+> Add new Version of the data
+
+
 
